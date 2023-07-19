@@ -25,8 +25,8 @@ export const HeaderContainer = styled.div`
         border-bottom: 3px solid ${({ theme }) => theme['green-500']};
       }
 
-      &:active {
-        color: ${(props) => props.theme['green-500']};
+      &.active {
+        color: ${({ theme }) => theme['green-500']};
       }
     }
   }
